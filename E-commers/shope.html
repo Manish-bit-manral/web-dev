@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+   <link rel="stylesheet" href="shope.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+          <i class="fa-solid fa-bars"></i>
+          <a href="#" class="logo">3legant.</a>
+        </div>
+  
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#" class="active">Shop</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </nav>
+  
+        <div class="icon-container">
+          <a href="#"><img src="./images/search-icon.png" alt="" /></a>
+          <a href="#"><img src="./images/user-icon.png" alt="" /></a>
+          <div class="cart-container">
+            <a href="#"><img src="./images/cart-icon.png" alt="" /></a>
+            <div class="circle">2</div>
+          </div>
+        </div>
+      </header>
+      <section class="img-container">
+        <img  class="img"src="images/Image Placeholder header.jpg">
+        <div class="sub-div">
+         <div class="sub-anch">
+          <a  class="home"href="">Home <i class="fa-solid fa-arrow-right"></i></a>
+          <a  class="shop"href="">Shop</a>
+         </div>
+         <h1 class="heading"> Shop Page</h1>
+         <p class="para">Let’s design the place you always imagined .</p>
+        </div>       
+      </section>
+
+      <section class="content">
+        <div class="filter-container">
+          <header class="head"><img class="vector" src="images/Vector.png">
+            <h4 class="filter">Filter</h4>
+          </header>
+          <div class="categories">
+            <h4 class="cat-head">CATEGORIES</h4>
+            <section class="room-list">
+                <li>All Rooms</li>
+                <li class="living">Living Room</li>
+                <li>Bedroom</li>
+                <li>Kitchen</li>
+                <li>Bathroom</li>
+                <li>Dinning</li>
+                <li>Outdoor</li>
+            </section>
+          </div>
+          <section class="price">
+            <h4>PRICE</h4>
+            <div class="checkbox">
+              <div class="one">
+                <p>All Price</p>
+              <input type="checkbox">
+            </div>
+            <div class="one">
+              <p>$0.00 - 99.99</p>
+            <input type="checkbox">
+          </div>
+          <div class="one">
+            <p>$100.00 - 199.99</p>
+          <input type="checkbox">
+        </div>
+        <div class="one">
+          <p>$200.00 - 299.99</p>
+        <input type="checkbox">
+      </div>
+      <div class="one">
+        <p>$300.00 - 399.99</p>
+      <input type="checkbox">
+    </div>
+    <div class="one">
+      <p>$400.00+</p>
+    <input type="checkbox">
+  </div>
+          </div>
+          </section>
+        </div>
+        <div class=" shop-content">
+          <header class="shop-header">
+             <h3 class="Living-room">Living Room</h3>
+             <div class="right-side">
+              <p>sort by<i class="fa-solid fa-chevron-down"></i></p>
+              <div class="r-icons">
+                <i><img onClick="changeSimple()" src="images/icon1.png" alt=""></i>
+                <i><img onClick="changeFour()"src="images/icon5.png" alt=""></i>
+                <i><img onClick="changeTwo()" src="images/icon3.png" alt=""></i>
+                <i><img onClick="changeOn()"src="images/icon4 .png" alt=""></i>
+              </div>
+             </div>
+          </header>
+          <div class="grid-container">
+               <div class="box"id="box1"> 
+                <div class="heart"><img src="shop.images/Shape.png"></div> 
+                 <img class="all-images"src="images/Image Placeholder.png"> 
+                
+              <div class="badges1">
+                <button class="btn">New</button>
+                <button class="btn1">-50%</button>
+                <button class="add">Add to cart</button>
+              </div>
+              <footer class="foot">
+                <p class="p1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                <p class="p2">Loveseat Sofa</p>
+                <div class="two-para">
+                <p class="p3">$199.00 </p><p class="p4">$400.00</p>
+              </div>
+              </footer>
+            </div>
+
+            <div class="box" id="box2">
+              <div class="heart"><img src="shop.images/Shape.png"></div>
+              <img class="all-images" src="images/img2.png">
+              <div class="badges1">
+                <button class="btn">New</button>
+                <button class="btn1">-50%</button>
+                <button class="add">Add to cart</button>
+              </div>
+              <footer class="foot">
+                <p class="p1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                <p class="p2">Luxury Sofa</p>
+                <div class="two-para">
+                <p class="p3">$599.00 </p><p class="p4">$500.00</p>
+              </div>
+              </footer>
+            </div>
+
+            <div class="box" id="box3">
+              <div class="heart"><img src="shop.images/Shape.png"></div>
+              <img  class="all-images"src="images/img3.png">
+              <div class="badges1">
+                <button class="btn">New</button>
+                <button class="btn1">-50%</button>
+                <button class="add">Add to cart</button>
+              </div>
+              <footer class="foot">
+                <p class="p1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                <p class="p2">Table Lamp</p>
+                <div class="two-para">
+                <p class="p3">$19.00 </p>
+              </div>
+              </footer>
+            </div>
+
+            <div class="box" id="box4">
+              <div class="heart"><img src="shop.images/Shape.png"></div>
+              <img  class="all-images" src="images/img4.png">
+              <div class="badges1">
+                <button class="btn">New</button>
+                <button class="btn1">-50%</button>
+                <button class="add">Add to cart</button>
+              </div>
+              <footer class="foot">
+                <p class="p1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                <p class="p2">White Drawer unit</p>
+                <div class="two-para">
+                <p class="p3">$89.99 </p>
+              </div>
+              </footer>
+            </div>
+
+            <div class="box" id="box5">
+              <div class="heart"><img src="shop.images/Shape.png"></div>
+              <img  class="all-images" src="images/img5.png">
+              <div class="badges1">
+                <button class="btn">New</button>
+                <button class="btn1">-50%</button>
+                <button class="add">Add to cart</button>
+              </div>
+              <footer class="foot">
+                <p class="p1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                <p class="p2">Black Tray table</p>
+                <div class="two-para">
+                <p class="p3">$19.99 </p>
+              </div>
+              </footer>
+            </div>
+
+            <div class="box" id="box6">
+              <div class="heart"><img src="shop.images/Shape.png"></div>
+              <img  class="all-images" src="images/img6.png">
+              <div class="badges1">
+                <button class="btn">New</button>
+                <button class="btn1">-50%</button>
+                <button class="add">Add to cart</button>
+              </div>
+              <footer class="foot">
+                <p class="p1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                <p class="p2">Lamp</p>
+                <div class="two-para">
+                <p class="p3">$39.00 </p>
+              </div>
+              </footer>
+            </div>
+            <div class="box" id="box7"> 
+              <div class="heart"><img src="shop.images/Shape.png"></div>
+              <img  class="all-images" src="images/img7.png">
+              <div class="badges1">
+                <button class="btn">New</button>
+                <button class="btn1">-50%</button>
+                <button class="add">Add to cart</button>
+              </div>
+              <footer class="foot">
+                <p class="p1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                <p class="p2">Light Beige Pillow</p>
+                <div class="two-para">
+                <p class="p3">$3.99 </p>
+              </div>
+              </footer>
+            </div>
+
+            <div class="box" id="box8">
+              <div class="heart"><img src="shop.images/Shape.png"></div>
+              <img  class="all-images" src="images/img8.png">
+              <div class="badges1">
+                <button class="btn">New</button>
+                <button class="btn1">-50%</button>
+                <button class="add">Add to cart</button>
+              </div>
+              <footer class="foot">
+                <p class="p1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                <p class="p2">Table Lamp</p>
+                <div class="two-para">
+                <p class="p3">$39.99 </p>
+              </div>
+              </footer>
+            </div>
+
+            <div class="box" id="box9">
+              <div class="heart"><img src="shop.images/Shape.png"></div>
+              <img  class="all-images" src="images/img9.png">
+              <div class="badges1">
+                <button class="btn">New</button>
+                <button class="btn1">-50%</button>
+                <button class="add">Add to cart</button>
+              </div>
+              <footer class="foot">
+                <p class="p1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                <p class="p2">Bamboo Basket</p>
+                <div class="two-para">
+                <p class="p3">$9.99 </p>
+              </div>
+              </footer>
+            </div>
+          </div>
+          <button class="Show">Show More</button>
+        </div>
+      </section>
+      <section class="last-section">
+        <div class="inner-container">
+         <div class="mid-section">
+          <h1>Join Our Newsletter</h1>
+          <p>Sign up for deals,new products and promotions</p>
+         </div>
+         <div class="email-section">
+          <div class="msg">
+            <i class="fa-solid fa-envelope"></i>
+          <input type="email" placeholder="Email address">
+          </div>
+          <button>Signup</button>
+         </div>
+        </div>
+      </section>
+      <footer class="last-footer">
+        <header class="foot-head">
+          <div class="head">
+            <h4>3legant.</h4>
+            <p>Gift & Decoration Store</p>
+          </div>
+          <div class="a-tag">
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">Product</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact Us</a>
+          </div>
+        </header>
+         <div class="link">
+          <div class="copy">
+            <p class="">Copyright © 2023 3legant. All rights reserved</p>
+            <p class="para">Privacy Policy</p>
+            <p class="para">Terms of Use</p>
+          </div>
+          <div class="last-icons">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-youtube"></i>
+           </div>
+         </div>
+        
+      </footer>
+      <script>
+         function changeSimple(){
+          let grid = document.querySelector(".grid-container")
+          grid.style.cssText ="grid-template-columns: repeat(3,1fr); grid-template-rows: repeat(3,1fr);"
+
+        }
+        function changeFour(){
+          let grid = document.querySelector(".grid-container")
+          grid.style.cssText ="grid-template-columns: repeat(4,1fr); grid-template-rows: repeat(4,1fr);"
+
+        }
+        function changeTwo(){
+          let grid = document.querySelector(".grid-container")
+          grid.style.cssText ="grid-template-columns: repeat(2,1fr); grid-template-rows: repeat(1,1fr);"
+        }
+          function changeOn(){
+          let grid = document.querySelector(".grid-container")
+          grid.style.cssText ="grid-template-columns: repeat(1,1fr); grid-template-rows: repeat(1,1fr);"
+
+        }
+        
+      </script>
+</body>
+</html>
